@@ -1,3 +1,5 @@
+/// <reference lib="dom" />
+/// <reference lib="dom.iterable" />
 "use client";
 
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
