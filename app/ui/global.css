@@ -16,6 +16,11 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+input[type="radio"] {
+  @apply text-blue-600 accent-blue-600;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

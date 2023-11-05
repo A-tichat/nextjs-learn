@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </div>
       <div className="flex-1 md:overflow-hidden md:hover:overflow-y-auto">
         <div className="px-3 py-4 md:px-2">
-          <div className="rounded-md p-6 dark:bg-slate-800 dark:text-slate-50  md:p-12">
+          <div className="rounded-md p-6 dark:bg-gray-800 dark:text-gray-50  md:p-12">
             {children}
           </div>
         </div>
