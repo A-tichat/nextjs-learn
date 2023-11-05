@@ -10,7 +10,7 @@ export default function SideNav() {
         className="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40"
         href="/"
       >
-        <div className="w-32 text-white md:w-40">
+        <div className="w-40 text-white md:w-40">
           <AcmeLogo />
         </div>
       </Link>
@@ -20,7 +20,7 @@ export default function SideNav() {
         <Link
           href={"/"}
           className={
-            "flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 dark:bg-slate-800 dark:text-slate-50 dark:hover:text-blue-600 dark:hover:bg-sky-100 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3"
+            "flex h-[48px] flex-initial items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 dark:bg-slate-800 dark:text-slate-50 dark:hover:bg-sky-100 dark:hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3"
           }
         >
           <PowerIcon className="w-6" />
